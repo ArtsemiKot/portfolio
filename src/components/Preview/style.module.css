@@ -1,0 +1,88 @@
+.wrapper {
+
+    .infome {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        img {
+            background-image: url(${foto});
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 1px solid gray;
+            box-shadow: 0 0 7px black;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 700px;
+            gap: 10px;
+
+            p {
+                font: 400 26px Arial;
+                color: white;
+
+            }
+
+            h2 {
+                font: 800 88px Arial;
+                line-height: 100px;
+                color: white;
+            }
+        }
+
+    }
+
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+
+        .item_wrapper {
+            display: flex;
+            width: 400px;
+            gap: 10px;
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: rgb(115, 156, 142);
+            opacity: 0.8;
+            box-shadow: 0 0 7px black;
+            padding: 25px;
+
+            .icon_img {
+                background-image: url(${icon});
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 36px;
+                height: 36px;
+            }
+
+            .line {
+                border: 1px solid black;
+                height: 100%;
+
+            }
+
+            .text_skills {
+
+                p {
+                    font: 400 27px Arial;
+                    color: black;
+                    text-decoration:underline;
+                }
+
+                ul li {
+                    list-style-type: circle;
+                    font: 400 22px Arial;
+                    color: white;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

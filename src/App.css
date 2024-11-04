@@ -1,0 +1,12 @@
+    .main_img {
+        background-image: url(../src/assets/main.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+
+        .main_wrapper {
+            margin: auto;
+            width: 1300px;
+            padding: 60px 0;
+        }
+    }
